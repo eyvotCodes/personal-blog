@@ -1,3 +1,133 @@
-languageCode: en-us
+defaultContentLanguage: es
+languageCode: es-mx
 title: My New Hugo Site
 theme: PaperMod
+paginate: 5
+
+params:
+  env: production # to enable google analytics, opengraph, twitter-cards and schema.
+  title: "eyvot | Blog"
+  description: "Uno de mis rincones de internet, donde comparto parte de mis conocimientos o alguna que otra anécdota personal."
+  keywords: ["blog", "eyvot blog", "eyvot", "blog de eyvot", "Fabián Leyva", "Fabián", "Leyva"]
+  author: eyvot
+  # author: ["Me", "You"] # multiple authors
+  images: ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat: "02-01-2006" # dd-mm-aaaa
+  defaultTheme: auto # dark, light
+  disableThemeToggle: false
+
+  ShowReadingTime: false
+  ShowShareButtons: true
+  ShowPostNavLinks: false
+  ShowBreadCrumbs: false
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  ShowRssButtonInSectionTermList: false
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  hideSummary: false
+  comments: false
+  hidemeta: false
+  UseHugoToc: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    # disableHLJS: true # to disable highlight.js
+    # disableFingerprinting: true
+    favicon: "<link / abs url>"
+    favicon16x16: "<link / abs url>"
+    favicon32x32: "<link / abs url>"
+    apple_touch_icon: "<link / abs url>"
+    safari_pinned_tab: "<link / abs url>"
+
+  label:
+    text: "Home"
+    icon: /apple-touch-icon.png
+    iconHeight: 35
+
+  # profile-mode
+  profileMode:
+    enabled: false # needs to be explicitly set
+    title: "@eyvot"
+    subtitle: "Blog"
+    imageUrl: "img/profile-picture.jpg"
+    imageWidth: 120
+    imageHeight: 120
+    imageTitle: profile picture
+
+  # home-info mode
+  homeInfoParams:
+    Title: "Bienvenido! \U0001F44B"
+    Content: Dale un vistazo a mis posts.
+
+  socialIcons:
+    - name: github
+      url: "#"
+    - name: gitlab
+      url: "#"
+    - name: instagram
+      url: "#"
+    - name: youtube
+      url: "#"
+    - name: twitter
+      url: "#"
+    - name: facebook
+      url: "#"
+    - name: linkedin
+      url: "#"
+    - name: buymeacoffee
+      url: "#"
+
+  analytics:
+    google:
+      SiteVerificationTag: ""
+    bing:
+      SiteVerificationTag: ""
+    yandex:
+      SiteVerificationTag: ""
+
+  cover:
+    hidden: false # hide everywhere but not in structured data
+    hiddenInList: false # hide on list pages and home
+    hiddenInSingle: false # hide on single page
+    responsiveImages: true
+
+  # for search
+  # https://fusejs.io/api/options.html
+  fuseOpts:
+    isCaseSensitive: false
+    shouldSort: true
+    location: 0
+    distance: 1000
+    threshold: 0.4
+    minMatchCharLength: 0
+    keys: ["title", "permalink", "summary", "content"]
+menu:
+  main:
+    - identifier: eyvot
+      name: eyvot.com
+      url: https://eyvot.com
+      weight: 10
+    - identifier: categories
+      name: categories
+      url: /categories/
+      weight: 20
+    - identifier: tags
+      name: tags
+      url: /tags/
+      weight: 30
+    - identifier: archives
+      name: archives
+      url: /archives/
+      weight: 40
+# Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
+pygmentsUseClasses: true
+markup:
+  highlight:
+    noClasses: false
+    # anchorLineNos: true
+    # codeFences: true
+    # guessSyntax: true
+    # lineNos: true
+    # style: monokai
