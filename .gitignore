@@ -6,3 +6,4 @@ hugo.linux
 hugo.darwin
 
 .DS_Store
+.hugo_build.lock

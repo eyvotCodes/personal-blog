@@ -1,3 +1,3 @@
-# My Personal Blog
+# Blog
 
-Personal Blog made with Hugo.
+Nuestros platillos solo llevan 2 ingredientes, pero los cocinamos de forma diferente.

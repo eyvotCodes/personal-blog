@@ -1,8 +1,15 @@
+baseURL: 'http://localhost:1313/'
+
 defaultContentLanguage: es
 languageCode: es-mx
 title: My New Hugo Site
 theme: PaperMod
 paginate: 5
+hrefTargetBlank: true
+
+taxonomies:
+  categoria: categorias
+  etiqueta: etiquetas
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -23,7 +30,7 @@ params:
   ShowCodeCopyButtons: true
   ShowWordCount: true
   ShowRssButtonInSectionTermList: false
-  disableSpecial1stPost: false
+  disableSpecial1stPost: true
   disableScrollToTop: false
   hideSummary: false
   comments: false
@@ -59,7 +66,7 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Bienvenido! \U0001F44B"
-    Content: Dale un vistazo a mis posts.
+    Content: Nuestros platillos solo llevan 2 ingredientes, pero los cocinamos de forma diferente.
 
   socialIcons:
     - name: github
@@ -109,18 +116,26 @@ menu:
       name: eyvot.com
       url: https://eyvot.com
       weight: 10
-    - identifier: categories
-      name: categories
-      url: /categories/
+    - identifier: buscar
+      name: 'Buscar'
+      url: /buscar/
       weight: 20
-    - identifier: tags
-      name: tags
-      url: /tags/
+    - identifier: categorias
+      name: 'Categorías'
+      url: /categorias/ 
       weight: 30
-    - identifier: archives
-      name: archives
-      url: /archives/
+    - identifier: etiquetas
+      name: 'Etiquetas'
+      url: /etiquetas/
       weight: 40
+    - identifier: historial
+      name: 'Historial'
+      url: /historial/
+      weight: 50
+    - identifier: informacion
+      name: 'Información'
+      url: /informacion/
+      weight: 60
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
