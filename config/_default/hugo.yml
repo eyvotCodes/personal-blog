@@ -66,13 +66,9 @@ params:
   # home-info mode
   homeInfoParams:
     Title: "Bienvenido! \U0001F44B"
-    Content: Nuestros platillos solo llevan 2 ingredientes, pero los cocinamos de forma diferente.
-
-  socialIcons:
-    - name: github
-      url: "#"
-    - name: gitlab
-      url: "#"
+    Content: Nuestros platillos llevan solo 2 ingredientes, pero los cocinamos de forma diferente.
+    
+  infoSocialIconsEyvot:
     - name: instagram
       url: "#"
     - name: youtube
@@ -84,6 +80,24 @@ params:
     - name: linkedin
       url: "#"
     - name: buymeacoffee
+      url: "#"
+    
+  infoSocialIconsEyvotCodes:
+    - name: github
+      url: "#"
+    - name: gitlab
+      url: "#"
+    - name: youtube
+      url: "#"
+  
+  infoSocialIconsEyvotGames:
+    - name: tiktok
+      url: "#"
+    - name: instagram
+      url: "#"
+    - name: youtube
+      url: "#"
+    - name: facebook
       url: "#"
 
   analytics:
@@ -112,30 +126,26 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: eyvot
-      name: eyvot.com
-      url: https://eyvot.com
-      weight: 10
     - identifier: buscar
       name: 'Buscar'
       url: /buscar/
-      weight: 20
+      weight: 10
     - identifier: categorias
       name: 'Categorías'
       url: /categorias/ 
-      weight: 30
+      weight: 20
     - identifier: etiquetas
       name: 'Etiquetas'
       url: /etiquetas/
-      weight: 40
+      weight: 30
     - identifier: historial
       name: 'Historial'
       url: /historial/
-      weight: 50
+      weight: 40
     - identifier: informacion
       name: 'Información'
       url: /informacion/
-      weight: 60
+      weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
