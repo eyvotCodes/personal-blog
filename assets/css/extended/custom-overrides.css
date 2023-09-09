@@ -1,0 +1,39 @@
+/* Code Blocks Text */
+.post-content pre code {
+    color: #1F1F1F;
+}
+.dark .post-content pre code {
+    color: #C4C4C5;
+}
+
+/* Gneneral Text */
+body {
+    text-align: justify;
+}
+::selection {
+    background: #FFD2D8;
+    color: #1F1F1F;
+}
+.dark ::selection {
+    background: #574347;
+    color: #C4C4C5;
+}
+h1, h2, h3 {
+    text-align: left;
+}
+mark {
+    color: #1F1F1F;
+    margin: 0 -.4em;
+    padding: 0 .4em;
+    border-radius: .8em .3em;
+    background: 0 0;
+    background-image: linear-gradient(to right,rgba(255,210,216,0.1),rgba(255,210,216,.7) 4%,rgba(255,210,216,0.3));
+}
+.dark mark {
+    color: #C4C4C5;
+    margin: 0 -.4em;
+    padding: 0 .4em;
+    border-radius: .8em .3em;
+    background: 0 0;
+    background-image: linear-gradient(to right,rgba(150, 114, 119,0.1),rgba(150, 114, 119, 0.7) 4%,rgba(150, 114, 119,0.3));
+}

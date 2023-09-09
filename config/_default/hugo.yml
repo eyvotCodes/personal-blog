@@ -22,6 +22,7 @@ params:
   DateFormat: "02-01-2006" # dd-mm-aaaa
   defaultTheme: auto # dark, light
   disableThemeToggle: false
+  ShareButtons: ['linkedin', 'whatsapp', 'telegram', 'twitter', 'facebook']
 
   ShowReadingTime: false
   ShowShareButtons: true
@@ -40,7 +41,7 @@ params:
   tocopen: false
 
   assets:
-    # disableHLJS: true # to disable highlight.js
+    disableHLJS: true
     # disableFingerprinting: true
     favicon: "<link / abs url>"
     favicon16x16: "<link / abs url>"
@@ -49,9 +50,9 @@ params:
     safari_pinned_tab: "<link / abs url>"
 
   label:
-    text: "Home"
-    icon: /apple-touch-icon.png
-    iconHeight: 35
+    text: "Inicio"
+    icon: img/logo.svg
+    iconHeight: 64
 
   # profile-mode
   profileMode:
@@ -65,40 +66,34 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Bienvenido! \U0001F44B"
-    Content: Nuestros platillos llevan solo 2 ingredientes, pero los cocinamos de forma diferente.
+    Title: "Bienvenid@!"
+    Content: Mis platillos llevan solo 2 ingredientes, pero los cocino de forma diferente.
     
   infoSocialIconsEyvot:
     - name: instagram
-      url: "#"
+      url: "https://instagram.com/eyvot"
     - name: youtube
-      url: "#"
+      url: "https://www.youtube.com/@eyvot"
     - name: twitter
-      url: "#"
-    - name: facebook
-      url: "#"
+      url: "https://twitter.com/eyvot"
     - name: linkedin
-      url: "#"
-    - name: buymeacoffee
-      url: "#"
+      url: "https://linkedin.com/in/eyvot"
     
   infoSocialIconsEyvotCodes:
     - name: github
-      url: "#"
-    - name: gitlab
-      url: "#"
+      url: "https://gitlab.com/eyvotCodes"
     - name: youtube
-      url: "#"
+      url: "https://www.youtube.com/@eyvotCodes"
   
   infoSocialIconsEyvotGames:
     - name: tiktok
-      url: "#"
+      url: "https://www.tiktok.com/@eyvotGames"
     - name: instagram
-      url: "#"
+      url: "https://www.instagram.com/eyvotGames"
     - name: youtube
-      url: "#"
+      url: "https://www.youtube.com/@eyvotGames"
     - name: facebook
-      url: "#"
+      url: "https://www.facebook.com/eyvotGames"
 
   analytics:
     google:
@@ -111,7 +106,7 @@ params:
   cover:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
-    hiddenInSingle: false # hide on single page
+    hiddenInSingle: true # hide on single page
     responsiveImages: true
 
   # for search
@@ -126,10 +121,6 @@ params:
     keys: ["title", "permalink", "summary", "content"]
 menu:
   main:
-    - identifier: buscar
-      name: 'Buscar'
-      url: /buscar/
-      weight: 10
     - identifier: categorias
       name: 'Categorías'
       url: /categorias/ 
@@ -149,10 +140,13 @@ menu:
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
+  goldmark:
+    renderer:
+      unsafe: true
   highlight:
     noClasses: false
-    # anchorLineNos: true
-    # codeFences: true
-    # guessSyntax: true
-    # lineNos: true
-    # style: monokai
+    anchorLineNos: false
+    codeFences: true
+    guessSyntax: false
+    lineNos: true
+    style: monokai

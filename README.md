@@ -1,3 +1,3 @@
 # Blog
 
-Nuestros platillos llevan solo 2 ingredientes, pero los cocinamos de forma diferente.
+Mis platillos llevan solo 2 ingredientes, pero los cocino de forma diferente.
