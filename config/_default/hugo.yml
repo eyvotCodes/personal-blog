@@ -87,6 +87,8 @@ params:
     
   infoSocialIconsEyvotCodes:
     - name: github
+      url: "https://github.com/eyvotCodes"
+    - name: gitlab
       url: "https://gitlab.com/eyvotCodes"
     - name: youtube
       url: "https://www.youtube.com/@eyvotCodes"
