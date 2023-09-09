@@ -43,9 +43,12 @@ params:
   assets:
     disableHLJS: true
     # disableFingerprinting: true
-    favicon: "<link / abs url>"
-    favicon16x16: "<link / abs url>"
-    favicon32x32: "<link / abs url>"
+    favicon: "img/favicon/favicon-48x48.png"
+    favicon16x16: "img/favicon/favicon-16x16.png"
+    favicon32x32: "img/favicon/favicon-32x32.png"
+    favicon48x48: "img/favicon/favicon-48x48.png"
+    favicon96x96: "img/favicon/favicon-96x96.png"
+    favicon128x128: "img/favicon/favicon-128x128.png"
     apple_touch_icon: "<link / abs url>"
     safari_pinned_tab: "<link / abs url>"
 
