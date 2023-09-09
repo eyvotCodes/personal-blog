@@ -127,24 +127,24 @@ params:
     threshold: 0.4
     minMatchCharLength: 0
     keys: ["title", "permalink", "summary", "content"]
-menu:
-  main:
-    - identifier: categorias
-      name: 'Categorías'
-      url: /categorias/ 
-      weight: 20
-    - identifier: etiquetas
-      name: 'Etiquetas'
-      url: /etiquetas/
-      weight: 30
-    - identifier: historial
-      name: 'Historial'
-      url: /historial/
-      weight: 40
-    - identifier: informacion
-      name: 'Información'
-      url: /informacion/
-      weight: 50
+# menu:
+#   main:
+#     - identifier: categorias
+#       name: 'Categorías'
+#       url: /categorias/ 
+#       weight: 20
+#     - identifier: etiquetas
+#       name: 'Etiquetas'
+#       url: /etiquetas/
+#       weight: 30
+#     - identifier: historial
+#       name: 'Historial'
+#       url: /historial/
+#       weight: 40
+#     - identifier: informacion
+#       name: 'Información'
+#       url: /informacion/
+#       weight: 50
 # Read: https://github.com/adityatelange/hugo-PaperMod/wiki/FAQs#using-hugos-syntax-highlighter-chroma
 pygmentsUseClasses: true
 markup:
