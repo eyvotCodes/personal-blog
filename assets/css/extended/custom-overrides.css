@@ -15,7 +15,7 @@ body {
     color: #1F1F1F;
 }
 .dark ::selection {
-    background: #574347;
+    background: #81435c;
     color: #C4C4C5;
 }
 h1, h2, h3 {
@@ -27,7 +27,13 @@ mark {
     padding: 0 .4em;
     border-radius: .8em .3em;
     background: 0 0;
-    background-image: linear-gradient(to right,rgba(255,210,216,0.1),rgba(255,210,216,.7) 4%,rgba(255,210,216,0.3));
+    background-image: linear-gradient(to right,
+        rgba(179, 233, 237,0.15),
+        rgba(179, 233, 237, 0.65) 4%,
+        rgba(179, 233, 237,0.25),
+        rgba(179, 233, 237,0.25) 98%,
+        rgba(179, 233, 237,0.8) 100%
+    );
 }
 .dark mark {
     color: #C4C4C5;
@@ -35,5 +41,11 @@ mark {
     padding: 0 .4em;
     border-radius: .8em .3em;
     background: 0 0;
-    background-image: linear-gradient(to right,rgba(150, 114, 119,0.1),rgba(150, 114, 119, 0.7) 4%,rgba(150, 114, 119,0.3));
+    background-image: linear-gradient(to right,
+        rgba(70, 147, 154,0.15),
+        rgba(70, 147, 154, 0.65) 4%,
+        rgba(70, 147, 154,0.25),
+        rgba(70, 147, 154,0.25) 98%,
+        rgba(70, 147, 154,0.8) 100%
+    );
 }
