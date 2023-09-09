@@ -1,9 +1,9 @@
 baseURL: https://blog.eyvot.com/
 
 enableRobotsTXT: true
-buildDrafts: false
-buildFuture: false
-buildExpired: false
+buildDrafts: true
+buildFuture: true
+buildExpired: true
 
 googleAnalytics: ""
 

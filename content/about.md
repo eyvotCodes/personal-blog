@@ -1,5 +1,5 @@
 ---
 title: 'Información'
-url: '/informacion'
+url: '/informacion/'
 layout: 'about'
 ---
