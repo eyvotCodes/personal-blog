@@ -2,14 +2,17 @@ baseURL: 'http://localhost:1313/'
 
 defaultContentLanguage: es
 languageCode: es-mx
-title: My New Hugo Site
+title: 'eyvot | Blog'
 theme: PaperMod
 paginate: 5
 hrefTargetBlank: true
+enableRobotsTXT: true
 
 taxonomies:
   categoria: categorias
   etiqueta: etiquetas
+  historial: historial
+  informacion: informacion
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
@@ -18,7 +21,7 @@ params:
   keywords: ["blog", "eyvot blog", "eyvot", "blog de eyvot", "Fabián Leyva", "Fabián", "Leyva"]
   author: eyvot
   # author: ["Me", "You"] # multiple authors
-  images: ["<link or path of image for opengraph, twitter-cards>"]
+  images: ["img/eyvot-blog-home.png"]
   DateFormat: "02-01-2006" # dd-mm-aaaa
   defaultTheme: auto # dark, light
   disableThemeToggle: false
@@ -109,7 +112,7 @@ params:
   cover:
     hidden: false # hide everywhere but not in structured data
     hiddenInList: false # hide on list pages and home
-    hiddenInSingle: true # hide on single page
+    hiddenInSingle: false # hide on single page
     responsiveImages: true
 
   # for search

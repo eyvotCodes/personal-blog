@@ -1,14 +1,15 @@
 ---
 draft: 'true'
 title: '¿Quién es eyvot?'
+description: '¡Hola! 👋. Soy Fabián Leyva, aunque en el mundo digital me conocerás como eyvot. Con esto doy inicio a mi blog personal, un lugar donde...'
 date: '2023-09-06T14:05:50-06:00'
 url: 'posts/quien-es-eyvot'
+cover:
+  image: 'img/2023/230906-cover.jpg'
+  hidden: true
 
 categorias: ['personal']
 etiquetas: ['información', 'la piedad', 'itlp']
-
-cover:
-  image: 'img/2023/230906-cover.jpg'
 ---
 
 ## ¡Hola! 👋
