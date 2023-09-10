@@ -20,7 +20,7 @@ En este lugar, encontrarás información técnica directa, pero también un luga
 
 ## 👨‍💻 Sobre Mí
 
-<mark>Soy originario de La Piedad de Cabadas</mark>, provincia del estado de Michoacán (si alguna vez escuchas a alguien decir que es de "La Piedrita", se refieren a La Piedad, así le llamamos de cariño). Soy **Desarrollador de Software**, me titulé como <mark>Ingeniero en Sistemas Computacionales por el ITLP</mark> (Instituto Tecnológico de La Piedad), concluyendo así mi educación profesional en el año 2016. En todo este tiempo, he participado en diversos tipos de proyectos de software, en mi página web personal [eyvot.com](https://eyvot.com/) puedes encontrar más detalles sobre mi perfil y experiencia en la industria.
+<mark>Soy originario de La Piedad de Cabadas</mark>, provincia del estado de Michoacán, México (si alguna vez escuchas a alguien decir que es de "la piedrita", se refieren a La Piedad, así le llamamos de cariño). Soy **Desarrollador de Software**, me titulé como <mark>Ingeniero en Sistemas Computacionales por el ITLP</mark> (Instituto Tecnológico de La Piedad), concluyendo así mi educación profesional en el año 2016. En todo este tiempo, he participado en diversos tipos de proyectos de software, en mi página web personal [eyvot.com](https://eyvot.com/) puedes encontrar más detalles sobre mi perfil y experiencia en la industria.
 
 ![La Piedad](/img/2023/230906-img-lp.jpg "Parroquia del Señor de La Piedad")
 
