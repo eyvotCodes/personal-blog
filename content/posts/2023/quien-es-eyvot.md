@@ -15,7 +15,7 @@ etiquetas: ['información', 'la piedad', 'itlp']
 
 Soy **Fabián Leyva**, aunque en el mundo digital me conocerás como **eyvot**. Con esto doy inicio a mi blog personal, un lugar donde compartiré conocimientos técnicos relacionados con el mundo de la programación y temas más ligeros, como anécdotas personales. Pero antes de adentrarnos en ello, te contaré un poco más sobre quién soy y lo que pretendo aportar através de este medio.
 
-En este lugar, encontrarás información técnica directa, pero también un lugar para explorar el mundo de la programación de forma amena y accesible. Bienvenido! 🙂
+En este lugar, encontrarás información técnica directa, pero también un lugar para explorar el mundo de la programación de forma amena y accesible. ¡Bienvenido! 🙂
 
 ## 👨‍💻 Sobre Mí
 
