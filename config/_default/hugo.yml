@@ -1,8 +1,13 @@
 baseURL: 'http://localhost:1313/'
 
+# custom values
+define: &name "eyvot | Blog"
+define: &mensaje "Bienvenid@!"
+define: &eslogan "<👨‍🍳> Nuestros platillos llevan solo 2 ingredientes, pero los cocinamos de forma diferente. </👨‍🍳>"
+
 defaultContentLanguage: es
 languageCode: es-mx
-title: 'eyvot | Blog'
+title: *name
 theme: PaperMod
 paginate: 5
 hrefTargetBlank: true
@@ -16,8 +21,8 @@ taxonomies:
 
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  title: "eyvot | Blog"
-  description: "Uno de mis rincones de internet, donde comparto parte de mis conocimientos o alguna que otra anécdota personal."
+  title: *name
+  description: *eslogan
   keywords: ["blog", "eyvot blog", "eyvot", "blog de eyvot", "Fabián Leyva", "Fabián", "Leyva"]
   author: eyvot
   # author: ["Me", "You"] # multiple authors
@@ -72,8 +77,8 @@ params:
 
   # home-info mode
   homeInfoParams:
-    Title: "Bienvenid@!"
-    Content: Mis platillos llevan solo 2 ingredientes, pero los cocino de forma diferente.
+    Title: *mensaje
+    Content: *eslogan
     
   infoSocialIconsEyvot:
     - name: instagram
