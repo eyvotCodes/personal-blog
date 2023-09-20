@@ -7,16 +7,27 @@
 }
 
 /* Gneneral Text */
-body {
+.first-entry .entry-header h1 {
+    font-size: 34px;
+}
+.first-entry .entry-content {
+    font-size: 18px;
+    font-family: Menlo, Monaco, Consolas, "Liberation Mono", SFMono-Regular, monospace, "Courier New";
+}
+.post-content {
     text-align: justify;
 }
 ::selection {
     background: #FFD2D8;
-    color: #1F1F1F;
+    color: #2e2e2e;
 }
 .dark ::selection {
-    background: #81435c;
-    color: #C4C4C5;
+    background: #FFD2D8;
+    color: #2e2e2e;
+}
+.share-buttons {
+    background: none;
+    border: none;
 }
 h1, h2, h3 {
     text-align: left;
