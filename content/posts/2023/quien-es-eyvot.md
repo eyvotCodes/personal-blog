@@ -22,12 +22,12 @@ En este lugar, encontrarás información técnica directa, pero también un luga
 
 <mark>Soy originario de La Piedad de Cabadas</mark>, provincia del estado de Michoacán, México (si alguna vez escuchas a alguien decir que es de "la piedrita", se refieren a La Piedad, así le llamamos de cariño). Soy **Desarrollador de Software**, me titulé como <mark>Ingeniero en Sistemas Computacionales por el ITLP</mark> (Instituto Tecnológico de La Piedad), concluyendo así mi educación profesional en el año 2016. En todo este tiempo, he participado en diversos tipos de proyectos de software, en mi página web personal [eyvot.com](https://eyvot.com/) puedes encontrar más detalles sobre mi perfil y experiencia en la industria.
 
-![La Piedad](/img/2023/230906-img-lp.jpg "Parroquia del Señor de La Piedad")
+![La Piedad](/img/2023/230906-img-lp.webp "Parroquia del Señor de La Piedad")
 
 Soy una persona con intereses muy variados, aunque creo que todo se resume a que me gusta entender el funcionamiento de las cosas y poner en práctica mis conocimientos, para mi es muy gratificante esa <mark>"sensación creadora"</mark> de hacer algo que antes solo existía en tu imaginación. Tengo una mente inquisitiva, me gustan los retos que requieran uso de la lógica y también soy una persona muy planificadora.
 
-![ITLP Hackathon](/img/2023/230906-img-itlp-01.jpg "ITLP Hackathon")
-![ITLP Hackathon](/img/2023/230906-img-itlp-02.jpg "ITLP Hackathon")
+![ITLP Hackathon](/img/2023/230906-img-itlp-01.webp "ITLP Hackathon")
+![ITLP Hackathon](/img/2023/230906-img-itlp-02.webp "ITLP Hackathon")
 
 > Usé por primera vez una computadora a mis 7 años "la computadora del hogar" en el año 2000 (era una Compaq con Windows Me). Sin embargo, <mark>mi gusto por la programación nació hasta mis 17 años</mark>. 😲 **¿Cómo es esto posible?**
 
