@@ -37,7 +37,7 @@ Durante el <mark>bachillerato</mark>, tuve acceso a internet en casa (antes iba 
 
 Durante esta misma etapa, en la especialidad en informática, al tener materias de diseño pensé que la carrera de <mark>diseño gráfico</mark> también podría ser interesante (aprendimos Corel Draw, pero yo aprendí por mi cuenta Illustrator y Photoshop también). Al tener materias de animación pensé que la carrera de <mark>producción multimedia</mark> también podría ser interesante (aprendimos Macromedia/Adobe Flash, pero yo aprendí por mi cuenta After Effects también). Y al tener materias de programación... cuando <mark>hice mi primer "Hola Mundo" en C++</mark>, al pasar ese hola mundo a una ventana de Windows, al programar mi primera calculadora... estuve convencido que eso era lo que quería hacer <mark>"había encontrado algo que requería de todo lo que me gusta"</mark> ```lógica ∩ creatividad ∩ imaginación```, simplemente <mark>"lo tuve claro"</mark>.
 
-### 🤔 Mis motivaciones
+### 🤔 Mis Motivaciones
 
 <mark>Siempre he sentido una conexión cercana con el avance que hemos tenido como especie a lo largo de la historia, y admiro a quienes se esfuerzan por superarse</mark>. Si logro a través de este o algún otro de mis medios, servir como catalizador para que decidas explorar esta área y comprenderla un poco más, consideraré que hemos logrado un avance como sociedad. A veces subestimamos el impacto que pueden tener las cosas si las vemos superficialmente.
 
