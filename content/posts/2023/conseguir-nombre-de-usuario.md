@@ -3,6 +3,7 @@ draft: 'false'
 hiddenInHomeList: true
 title: '¿Cómo conseguir un buen nombre de usuario?'
 description: '🔮 Anticipándome al futuro, responderé la pregunta: "¿Por qué te pusiste eyvot?". Contándote una historia de hace 7 años...'
+keywords: ['¿¿cómo conseguir un buen nombre de usuario?', "nombre de usuario", "eyvot", "fabián leyva"]
 date: '2023-10-10T12:03:54-06:00'
 url: 'posts/como-conseguir-un-buen-nombre-de-usuario'
 cover:

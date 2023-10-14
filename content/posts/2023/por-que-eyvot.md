@@ -2,6 +2,7 @@
 draft: 'false'
 title: '¿Por qué eyvot?'
 description: '🔮 Anticipándome al futuro, responderé la pregunta: "¿Por qué te pusiste eyvot?". Contándote una historia de hace 7 años...'
+keywords: ['¿por qué eyvot?', "historia de eyvot", "nombre de usuario", "eyvot", "fabián leyva"]
 date: '2023-10-10T12:03:53-06:00'
 url: 'posts/por-que-eyvot'
 cover:
