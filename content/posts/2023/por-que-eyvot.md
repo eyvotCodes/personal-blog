@@ -12,7 +12,7 @@ categorias: ['personal']
 etiquetas: ['información', 'curiosidades']
 ---
 
-*🔮 Anticipándome al futuro, responderé la pregunta: "¿Por qué te pusiste eyvot?". Contándote una historia de hace 7 años.*
+🔮 *Anticipándome al futuro, responderé la pregunta: "¿Por qué te pusiste eyvot?". Contándote una historia de hace 7 años.*
 
 Verás, durante mis tiempos universitarios, ya consideraba la idea de establecer presencia en internet, aunque no de forma aspiracional a ser “un influencer”. Más bien pensaba en la importancia de tener un rincón personal en Internet, un espacio dónde compartir mis intereses y experiencias, en un mundo cada vez más conectado (te recomiendo leer <a href="/posts/quien-es-eyvot" target="_blank">mi primer post</a> para conocer más sobre mis motivaciones).
 
@@ -237,7 +237,7 @@ $ java -jar jnick.jar \
 | --db-table 'jnick_nicknamebasemodel'
 ~~~
 
-> Lo llamaré, después de 7 años "*Comando del Génesis*".
+> 🥁 Lo llamaré... después de 7 años... "*Comando del Génesis*".
 
 ¿Recuerdas que mencioné que había sobrecargado el método para establecer las estructuras válidas? Esto me permitió personalizar la configuración. En este caso, <mark>usé solo las letras que me interesaban, generé nicknames de 5 caracteres, con estructuras cvccv, cvcvc y vccvc, y apliqué un orden específico antes de seguir con el orden del alfabeto</mark>.
 
