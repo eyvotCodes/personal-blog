@@ -3,7 +3,7 @@ draft: 'false'
 hiddenInHomeList: true
 title: '¿Quién es Fabián Leyva?'
 description: '¡Hola! 👋. Soy Fabián Leyva, aunque en el mundo digital me conocerás como eyvot. Con esto doy inicio a mi blog personal, un lugar donde compartiré...'
-date: '2023-09-06T14:05:55-06:05'
+date: '2023-09-06T14:05:55-06:00'
 url: 'posts/quien-es-fabian-leyva'
 cover:
   image: 'img/2023/230906-cover.jpg'
