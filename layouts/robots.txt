@@ -1,5 +1,2 @@
 User-agent: *
-Disallow: /etiquetas/
-Disallow: /categorias/
-Disallow: /historial/
 Disallow: /404.html
