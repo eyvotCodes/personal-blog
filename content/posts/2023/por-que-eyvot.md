@@ -30,15 +30,15 @@ Si bien suelo reflexionar sobre mi futuro para darle dirección a mi vida, tampo
 
 ### 👨‍💻 “Soy Programador” Y... </br>...Esto Es Un Problema De Búsqueda
 
-<mark>Mis primeros intentos consistían en inventarme nicknames "sobre la marcha" en una libreta</mark>, para luego verificar su disponibilidad en redes sociales usando herramientas online. Sin embargo, pronto me di cuenta de que las combinaciones que se me ocurrían solían estar ocupadas en al menos una red social importante. Hacer esto de forma improvisada, me llevaba a repetir patrones de pensamiento y producir nombres similares o repetidos. Esta búsqueda la hacía de forma esporádica, cuando encontraba oportunidad o los días que sentía inspiración para producir nuevas ideas.
+<mark>Mis primeros intentos consistían en inventarme nicknames "sobre la marcha" en una libreta</mark>, para luego verificar su disponibilidad en redes sociales usando herramientas online. Sin embargo, pronto me di cuenta de que las combinaciones que se me ocurrían solían estar ocupadas en al menos una red social importante. Hacer esto de forma improvisada, me llevaba a repetir patrones de pensamiento y producir nombres similares o repetidos. Esta búsqueda la hacía de forma esporádica (cuando encontraba oportunidad o los días que sentía inspiración para producir nuevas ideas).
 
-**Tiempo después, en mi mente**... 🤔 Supongo que el hecho de que estos nombres estén ocupados, indica que comparto algo en común con la sociedad en cuanto a la generación de ideas de nombres. Esto podría estar relacionado con el lenguaje y las palabras que conocemos. De alguna manera, estos elementos nos precondicionan. Tal vez las personas que crecieron hablando otro idioma generen ideas diferentes... *- mi mente detecta que he comenzado a divagar.*
+**Tiempo después, en mi mente**... 🤔 Supongo que el hecho de que estos nombres estén ocupados, indica que comparto algo en común con la sociedad en general en cuanto a la generación de ideas de nombres se refiere. Esto podría estar relacionado con el lenguaje y las palabras que conocemos. De alguna manera, estos elementos nos precondicionan. Tal vez las personas que crecieron hablando otro idioma generen ideas diferentes... *- mi mente detecta que he comenzado a divagar.*
 
-\- ¿Sabes? Fabián, te estás desviando. Entender los mecanismos detrás del por qué a las personas se nos ocurren nombres similares, no es algo que necesitemos abordar en este momento.
+\- ¿Sabes? Fabián, te estás desviando del tema. Entender los mecanismos detrás del por qué a las personas se nos ocurren nombres similares, no es algo que necesitemos abordar en este momento.
 
 \- Tienes/tengo razón, no es el momento (quizá nunca lo sea). Sin embargo, esto nos ayuda a medir la dificultad de encontrar un nickname corto, fácil de recordar, pronunciable y que incluya letras de nuestro nombre. Y esto podría influir en la toma de una decisión.
 
-\- Concuerdo, debemos encontrar los nicknames que cumplan con estos requisitos y que, además, estén disponibles (si es que existen).
+\- Concuerdo, debemos encontrar los nicknames que cumplan con estos requisitos y que, estén disponibles (si es que existen).
 
 \- Además, considerando que llego a tener audiencia en el futuro, lo más seguro es que sean personas hispanohablantes. Pero vivimos en un mundo globalizado, por lo que mi nickname debe sonar bien tanto en español como en inglés. Las letras que quiero usar (`a, b, c, d, e, f, g, l, n, o, r, s, t, v, y`) generan `759,375` combinaciones distintas de 5 letras (`15^5`). Por supuesto, no todas pueden considerarse nombre (`aaaaa, aaaab, aaaac, etc`).
 
@@ -56,7 +56,7 @@ El proyecto se dividió en tres partes fundamentales:
 - Un backend destinado a automatizar la verificación de disponibilidad de los nicknames en diversas redes sociales, almacenar los resultados y exponerlos a través de un API REST.
 - Un frontend que permitiría consumir el API REST y aplicar filtros y ordenamiento. Esto, por ejemplo, facilitaría la visualización de "los 50 nicknames con mayor disponibilidad".
 
-Luego de completar mis deberes universitarios según lo planeado, me puse manos a la obra, incluso dejando pasar una atractiva oportunidad laboral que se presentó en ese momento. Mi razonamiento era simple: <mark>mientras más tiempo pasara, más probable sería que esos hipotéticos "**golden nicknames**" desaparecieran</mark>, ya que alguien más podría descubrirlos.
+Luego de completar mis deberes universitarios (según lo planeado), me puse manos a la obra, incluso dejando pasar una atractiva oportunidad laboral que se presentó en ese momento. Mi razonamiento era simple: <mark>mientras más tiempo pasara, más probable sería que esos hipotéticos "**golden nicknames**" desaparecieran</mark>, ya que alguien más podría descubrirlos.
 
 ---
 
@@ -66,7 +66,7 @@ Parte de la compensación económica que obtuve de mis residencias profesionales
 
 ![Primer compra por internet](/img/2023/231010-img-primer-compra-online.webp "Primer compra por internet")
 
-> *🪶 La primera compra online, ese paso que disipa el miedo, que te hace desmitificar los cuentos de terror sobre “por qué no debes comprar en Internet” que te cuentan tus conocidos que nunca han comprado por Internet.*
+> *🪶 La primera compra online, ese paso que disipa el miedo, que te hace desmitificar los cuentos de terror sobre “por qué no debes comprar en Internet” que te cuentan tus conocidos que nunca han comprado en Internet.*
 
 Si me conoces personalmente, sabrás que <mark>ese es mi tipo de humor en ocasiones</mark> (aunque depende de nuestro nivel de confianza y de cómo nos llevemos). ¿Qué humor? Dentro de mi mente suena gracioso evidenciar la ironía que representa una persona que no compra por Internet, aconsejándote sobre lo malo de comprar por Internet.
 
@@ -75,7 +75,7 @@ Tal vez se debe a que soy una persona que le cuesta entender el sarcasmo, a meno
 
 ![Raspberry Pi 3 Model B](/img/2023/231010-img-raspberry-pi.webp "Raspberry Pi 3 Model B")
 
-Adquirí esta Raspberry Pi para convertirla en un pequeño servidor local de experimentos. Además me serviría para ejecutar mi función para verificar la disponibilidad de los nicknames de forma periódica mediante un *cron job*. Le instalé *Ubuntu Server* como sistema operativo, y dado que comencé el proyecto a finales de 2016, estoy convencido de que usé la versión 16.04, la cual debió ser la última versión LTS en ese momento. Básicamente se convirtió en mi infraestructura como servicio (*IaaS*) local.
+Adquirí esta *Raspberry Pi* para convertirla en un pequeño servidor local de experimentos. Además me serviría para ejecutar mi función para verificar la disponibilidad de los nicknames de forma periódica mediante un *cron job*. Le instalé *Ubuntu Server* como sistema operativo, y dado que comencé el proyecto a finales de 2016, estoy convencido de que usé la versión 16.04, la cual debió ser la última versión LTS en ese momento. Básicamente se convirtió en mi infraestructura como servicio (*IaaS*) local.
 
 ---
 
@@ -130,7 +130,7 @@ Revisando mi antiguo código... <mark>escribí el generador en *Java*</mark> (qu
 
 <mark>Después de obtener esta lista de estructuras válidas, las sometí a pruebas, y no siempre quedaba satisfecho con el resultado final</mark>. Por ejemplo, la estructura `cvccv`, que generaba nombres como **dante** o **balta**, también podía generar **xitzo** y **wulln**. ¿Ves el problema? Estos no podía considerarlos "nicknames fácilmente pronunciables en español e inglés".
 
-Así que, <mark>determiné que mis nicknames estarían compuestos por combinaciones de **vocales**, **consonantes**, **dobles vocales**, **dobles consonantes** y **triples consonantes**</mark>. Esto como una abstracción intermedia que me facilitara emitir un juicio sobre las combinaciones y después poder crear reglas (antes de eso, también consideré usar sílabas, pero las descarté).
+Así que, <mark>determiné que mis nicknames estarían compuestos por combinaciones de **vocales**, **consonantes**, **dobles vocales**, **dobles consonantes** y **triples consonantes**</mark>. Esto como una abstracción intermedia que me facilitara emitir un juicio sobre las combinaciones y después poder crear reglas (antes de eso, también consideré usar sílabas, pero lo descarté).
 
 <mark>Dado que una de las características clave que buscaba era la pronunciación</mark>, no permitiría casos de **doble vocal** (como "**ii**"), ya que esto solo prolonga la pronunciación sin cambiarla. Por ejemplo, una palabra de **5 caracteres** como "**danii**" podría sonar igual que una de **4 caracteres** como "**dani**". Sin embargo, <mark>en el caso de las consonantes, había combinaciones que podían modificar la pronunciación si la letra se repetía</mark>, como la "**ll**" en "**lluvia**" o consonantes que, aunque no se repitieran, creaban una nueva pronunciación, como la "**dr**" en "**pedro**". Incluso con las combinaciones de triple consonante, como "**lly**", se podía formar una pronunciación. Esos son solo algunos pocos ejemplos de lo que analicé. Para dar una mejor idea, aquí dejo las combinaciones de triple consonante que usé solo para las letras "**x**", "**y**" y "**z**":
 
@@ -248,7 +248,7 @@ $ java -jar jnick.jar \
 * * * * * socialminer /home/socialminer/.virtualenvs/socialminer/bin/python /home/socialminer/www/api.socialminer.lan/manage.py crawlnextnickname
 ~~~
 
-Esta decisión la tomé principalmente por "<mark>paranoia de programador</mark>". Me preocupaba que, si hacía peticiones con demasiada frecuencia, corriera el riesgo de ser incluido en lista negra dentro de alguna red social. Recuerdo que pensé “<mark>tardará casi un mes</mark>”, y si vemos el número de minutos que tienen un mes `30*24*60min = 43,200 mins`, no creo mi memoria falle al recordar que se generaron alrededor de 40,000 nicknames.
+Esta decisión la tomé principalmente por "<mark>paranoia de programador</mark>" (nuevamente). Me preocupaba que, si hacía peticiones con demasiada frecuencia, corriera el riesgo de ser incluido en lista negra dentro de alguna red social. Recuerdo que pensé “<mark>tardará casi un mes</mark>”, y si vemos el número de minutos que tienen un mes `30*24*60min = 43,200 mins`, no creo mi memoria falle al recordar que se generaron alrededor de 40,000 nicknames.
 
 ---
 
